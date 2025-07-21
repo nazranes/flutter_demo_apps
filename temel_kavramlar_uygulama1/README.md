@@ -1,2 +1,2 @@
-Bu Uygulama Şablon Bir profil Sayfasını içeriyor.
+Bu Uygulama Basit Bir profil Sayfasını içeriyor.
 
