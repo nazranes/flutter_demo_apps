@@ -1,16 +1,41 @@
-# flutter_test_app
+📱 TestApp – Temel Flutter UI Yapı Taşlarıyla Tanışın
+Bu proje, Flutter kullanarak temel UI bileşenlerinin nasıl yapılandırılacağını gösteren örnek bir uygulamadır. StatelessWidget, Container, Row, Column, Expanded, Flexible, FloatingActionButton gibi Flutter’ın kritik widget'larının pratik kullanımı anlatılmaktadır. Özellikle UI yerleşimi, hizalama, renk yönetimi ve etkileşimli butonların işleyişi gibi konulara odaklanılmıştır.
 
-A new Flutter project.
+🚀 Amaç ve Kullanım Senaryosu
+Bu demo; Flutter öğrenmeye yeni başlayanların, UI bileşenlerini görsel ve kod düzeyinde anlaması için tasarlanmıştır. Mobil arayüz tasarımının temel yapı taşlarını tanımak ve MaterialApp iskeleti içerisinde nasıl bir yapı kurulacağını gözlemlemek isteyenler için idealdir.
 
-## Getting Started
+🔧 Kapsanan Konular ve Öğrenilenler:
 
-This project is a starting point for a Flutter application.
+Konu	: Açıklama
+StatelessWidget kullanımı: 	Basit bir uygulama mantığıyla widget ağacını tanımlama
+Container ile UI elemanları:	Renk, boyut, margin ve padding gibi stil özelliklerinin nasıl tanımlandığı
+Row ve Column yapıları:	Yatay ve dikey yerleşimlerin nasıl kontrol edildiği
+Flexible & Expanded farkı	: Alan yönetimi ve ekran taşmalarının optimize edilmesi
+FloatingActionButton etkileşimi:	Basit bir butonun nasıl işlevsel hale getirileceği
+AppBar ve Scaffold yapısı:	Sayfa iskeletinin kurulumu ve üst başlık barının tanımlanması
+Debug mesajları (debugPrint):	Buton etkileşiminde geri bildirim mekanizmaları
 
-A few resources to get you started if this is your first Flutter project:
+🧱 Widget Hiyerarşisi Örneği
+Uygulama aşağıdaki temel bileşenleri içerir:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+MaterialApp
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  Scaffold
+
+   AppBar
+
+   Body: Row -> Flexible Containers
+
+   FloatingActionButton
+
+📷 Ekran Özelliği
+Butona tıklanınca konsola "Buton tıklandı" mesajı yazdırılır. Icon olarak Icons.add_a_photo_outlined kullanılmıştır.
+
+🧑‍💻 Geliştirici Notu
+Kodun okunabilirliğini artırmak için:
+
+Tüm container yapıları margin ve padding ile tasarlanmıştır.
+
+UI yerleşimi, esnek alanlarla (Flexible, Expanded) yönetilmiştir.
+
+myContainer, myMainColumn gibi yapılandırılmış yardımcı metodlarla kod parçalara ayrılmıştır.
