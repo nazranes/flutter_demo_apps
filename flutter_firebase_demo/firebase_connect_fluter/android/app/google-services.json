@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "480787164928",
+    "project_id": "fir-connect-fluter",
+    "storage_bucket": "fir-connect-fluter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480787164928:android:2e73404d8a39fa328c8de5",
+        "android_client_info": {
+          "package_name": "com.example.firebase_connect_fluter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOweAf2PcemmQLn4_fy8DNZnyuk5qltIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
